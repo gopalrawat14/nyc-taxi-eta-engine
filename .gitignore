@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+build/
+dist/
+
+# Data (Crucial: DO NOT push large parquet files)
+data/*.parquet
+data/raw/
+data/processed/
+data/taxi_zone_lookup.csv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Local model weights (Optional: keeping model.pkl if small, but usually ignored)
+# model.pkl 
